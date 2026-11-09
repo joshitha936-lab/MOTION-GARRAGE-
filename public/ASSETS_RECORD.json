@@ -1,0 +1,135 @@
+{
+  "project": "MOTION GARAGE",
+  "generated": "2026-10-15",
+  "models": [
+    {
+      "id": "porsche-911",
+      "name": "Porsche 911 Carrera 4S",
+      "brand": "Porsche",
+      "modelFile": "/models/porsche-911-carrera-4s.glb",
+      "author": "Lionsharp Studios",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://sketchfab.com/3d-models/free-porsche-911-carrera-4s-d01b254483794de3819786d93e0e1ebf",
+      "power": "443 hp",
+      "acceleration": "3.4s (0-60 mph)",
+      "topSpeed": "190 mph",
+      "engine": "3.0L Twin-Turbo Flat-6",
+      "transmission": "8-Speed Porsche Doppelkupplung (PDK)",
+      "drivetrain": "All-Wheel Drive (AWD)"
+    },
+    {
+      "id": "ferrari-458",
+      "name": "Ferrari 458 Italia / 296 GTB",
+      "brand": "Ferrari",
+      "modelFile": "/models/ferrari.glb",
+      "shadowFile": "/models/ferrari_ao.png",
+      "author": "vicent091036",
+      "license": "CC BY (Three.js Showcase)",
+      "licenseUrl": "https://sketchfab.com/models/57bf6cc56931426e87494f554df1dab6",
+      "source": "https://threejs.org/examples/webgl_materials_car.html",
+      "power": "562 hp",
+      "acceleration": "3.2s (0-60 mph)",
+      "topSpeed": "202 mph",
+      "engine": "4.5L Naturally Aspirated V8 / 180° Flat-Plane Crank",
+      "transmission": "7-Speed Dual-Clutch F1",
+      "drivetrain": "Rear-Wheel Drive (RWD)"
+    },
+    {
+      "id": "lamborghini-aventador",
+      "name": "Lamborghini Aventador LP700-4",
+      "brand": "Lamborghini",
+      "modelFile": "/models/lamborghini.glb",
+      "author": "Arion Digital",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://sketchfab.com/3d-models/lamborghini-aventador-888e37a3641d4f7b94bc1a39396e2441",
+      "power": "690 hp",
+      "acceleration": "2.9s (0-60 mph)",
+      "topSpeed": "217 mph",
+      "engine": "6.5L 60° Naturally Aspirated V12",
+      "transmission": "7-Speed ISR (Independent Shifting Rods)",
+      "drivetrain": "Permanent All-Wheel Drive with Haldex"
+    },
+    {
+      "id": "bmw-m4",
+      "name": "BMW M4 Competition (G82)",
+      "brand": "BMW M",
+      "modelFile": "/models/bmw-m4.glb",
+      "author": "𝙎𝙍𝙏 𝙋𝙚𝙧𝙛𝙤𝙢𝙖𝙣𝙘𝙚™",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://sketchfab.com/3d-models/bmw-m4-competition-m-package-5c0a2dafb1ad408d9fc9eeef9aee531b",
+      "power": "503 hp",
+      "acceleration": "3.8s (0-60 mph)",
+      "topSpeed": "180 mph (M Driver's Pkg)",
+      "engine": "3.0L BMW M TwinPower Turbo S58 Inline-6",
+      "transmission": "8-Speed M Steptronic with Drivelogic",
+      "drivetrain": "M xDrive with Active M Differential"
+    }
+  ],
+  "videos": [
+    {
+      "id": "hero-porsche",
+      "title": "Porsche 911 Alpine Mountain Run",
+      "file": "/videos/porsche-hero.webm",
+      "poster": "/posters/hero-poster.jpg",
+      "license": "CC BY 3.0",
+      "creator": "SE FPV",
+      "type": "FPV Dynamic Tracking Shot"
+    },
+    {
+      "id": "ferrari-pass",
+      "title": "Ferrari F430 Spider Canyon Tracking",
+      "file": "/videos/ferrari-drive.webm",
+      "poster": "/posters/ferrari-poster.jpg",
+      "license": "CC BY 3.0",
+      "creator": "SE FPV",
+      "type": "Canyon Chase Cam"
+    },
+    {
+      "id": "hypercar-f80",
+      "title": "Ferrari Monterey Hypercar Unveiling",
+      "file": "/videos/hypercar-f80.webm",
+      "poster": "/posters/ferrari-poster.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Monterey Media",
+      "type": "Aerodynamic Walkaround"
+    },
+    {
+      "id": "diablo-eccentrica",
+      "title": "Lamborghini Diablo Titanium Restomod",
+      "file": "/videos/lamborghini-diablo.webm",
+      "poster": "/posters/lamborghini-poster.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Monterey Showcase",
+      "type": "V12 Engineering Craft"
+    }
+  ],
+  "details": [
+    {
+      "title": "PCCB Carbon-Ceramic Brakes",
+      "subtitle": "410mm drilled composite rotors with 8-piston monobloc calipers",
+      "image": "/images/detail-caliper-wheel.jpg",
+      "metric": "410 mm / 0 fade"
+    },
+    {
+      "title": "Active Swan-Neck Aerodynamics",
+      "subtitle": "Carbon fiber rear wing producing 860 kg of downforce at 285 km/h",
+      "image": "/images/detail-aero-wing.jpg",
+      "metric": "860 kg Downforce"
+    },
+    {
+      "title": "Driver-Centric Digital Cockpit",
+      "subtitle": "Alcantara contoured steering wheel with dual M-mode triggers & carbon paddles",
+      "image": "/images/bmw-m4-interior.jpg",
+      "metric": "M-Drive Telemetry"
+    },
+    {
+      "title": "Center-Lock Lightweight Forged Alloys",
+      "subtitle": "Ultra-lightweight forged magnesium wheels shod in Pirelli P Zero Corsa",
+      "image": "/images/detail-aventador-wheel.jpg",
+      "metric": "20” Front / 21” Rear"
+    }
+  ]
+}

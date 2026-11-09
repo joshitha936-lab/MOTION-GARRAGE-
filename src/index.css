@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #08090c;
+    --bg-secondary: #0e1117;
+    --bg-card: rgba(18, 22, 31, 0.7);
+    --border-subtle: rgba(255, 255, 255, 0.08);
+    --border-cyan: rgba(0, 240, 255, 0.3);
+    --cyan-glow: #00f0ff;
+    --orange-accent: #ff5500;
+  }
+
+  body {
+    background-color: #08090c;
+    color: #e2e8f0;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #08090c;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00f0ff;
+  }
+}
+
+.font-display {
+  font-family: 'Syne', sans-serif;
+}
+
+.font-mono-num {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Cinematic glows & styling */
+.cyan-glow-text {
+  text-shadow: 0 0 20px rgba(0, 240, 255, 0.5), 0 0 40px rgba(0, 240, 255, 0.2);
+}
+
+.orange-glow-text {
+  text-shadow: 0 0 20px rgba(255, 85, 0, 0.5);
+}
+
+.cyan-box-glow {
+  box-shadow: 0 0 30px -5px rgba(0, 240, 255, 0.25);
+}
+
+.backdrop-blur-glass {
+  background: rgba(12, 15, 22, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.studio-radial-bg {
+  background: radial-gradient(circle at 50% 40%, rgba(0, 240, 255, 0.06) 0%, rgba(8, 9, 12, 0.95) 75%, #08090c 100%);
+}
+
+.tech-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
